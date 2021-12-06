@@ -9,9 +9,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Archivos estaticos
-app.use(express.static("static"));
-
 // routes
 app.use("/attendance", attendance);
 
