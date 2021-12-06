@@ -1,0 +1,31 @@
+{
+  "name": "challenge8agencyapi",
+  "version": "1.0.0",
+  "description": "api creada para el challenge de The8Agency",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosCaballero/challenge8AgencyApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosCaballero/challenge8AgencyApi/issues"
+  },
+  "homepage": "https://github.com/MarcosCaballero/challenge8AgencyApi#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.3.0"
+  }
+}
